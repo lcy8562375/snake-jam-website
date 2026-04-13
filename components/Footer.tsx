@@ -42,8 +42,8 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">联系我们</h4>
             <ul className="space-y-2">
               <li>
-                <a href="mailto:support@yourgame.com" className="hover:text-white transition">
-                  support@yourgame.com
+                <a href="mailto:contact@timeaccel.com" className="hover:text-white transition">
+                  contact@timeaccel.com
                 </a>
               </li>
             </ul>

@@ -246,7 +246,7 @@ export default function TermsPage() {
               如果您对本协议有任何疑问或需要进一步信息，请通过以下方式联系我们：
             </p>
             <div className="bg-gray-50 rounded-lg p-6 mt-4">
-              <p><strong>邮箱：</strong><a href="mailto:support@yourgame.com" className="text-indigo-600 hover:text-indigo-700">support@yourgame.com</a></p>
+              <p><strong>邮箱：</strong><a href="mailto:contact@timeaccel.com" className="text-indigo-600 hover:text-indigo-700">contact@timeaccel.com</a></p>
               <p className="mt-2"><strong>公司名称：</strong>Shenyang Time Acceleration Technology Co., Ltd.</p>
               <p className="mt-2"><strong>注册地址：</strong>Workstation 0436, Room 203, No. 41-1 Chuangxin 2nd Road, Shenyang Area of China (Liaoning) Pilot Free Trade Zone</p>
             </div>
