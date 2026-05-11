@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Shenyang Time Acceleration Technology Co., Ltd. - Games</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-primary-fixed": "#000000",
+                      "background": "#f5f6f7",
+                      "on-tertiary-container": "#532200",
+                      "tertiary-container": "#ff9655",
+                      "on-primary-container": "#00156e",
+                      "secondary": "#296654",
+                      "surface-variant": "#dadddf",
+                      "on-surface-variant": "#595c5d",
+                      "primary-fixed-dim": "#7a8cf3",
+                      "secondary-dim": "#1b5948",
+                      "tertiary-fixed-dim": "#f6853b",
+                      "on-secondary-container": "#1d5c4a",
+                      "inverse-surface": "#0c0f10",
+                      "tertiary": "#964300",
+                      "primary-fixed": "#8899ff",
+                      "primary-dim": "#3346a9",
+                      "on-surface": "#2c2f30",
+                      "inverse-primary": "#8596ff",
+                      "surface-bright": "#f5f6f7",
+                      "on-tertiary": "#fff0e9",
+                      "tertiary-dim": "#843a00",
+                      "surface-container": "#e6e8ea",
+                      "on-secondary-fixed-variant": "#296654",
+                      "error-dim": "#a70138",
+                      "surface-container-high": "#e0e3e4",
+                      "surface": "#f5f6f7",
+                      "secondary-container": "#b1efd8",
+                      "secondary-fixed": "#b1efd8",
+                      "on-error-container": "#510017",
+                      "secondary-fixed-dim": "#a3e1ca",
+                      "on-tertiary-fixed-variant": "#612900",
+                      "tertiary-fixed": "#ff9655",
+                      "on-secondary-fixed": "#004938",
+                      "on-primary-fixed-variant": "#001b86",
+                      "on-secondary": "#c5ffe9",
+                      "primary-container": "#8899ff",
+                      "outline": "#757778",
+                      "on-background": "#2c2f30",
+                      "primary": "#4052b6",
+                      "surface-container-lowest": "#ffffff",
+                      "surface-container-highest": "#dadddf",
+                      "surface-dim": "#d1d5d7",
+                      "surface-tint": "#4052b6",
+                      "on-primary": "#f3f1ff",
+                      "error": "#b41340",
+                      "on-error": "#ffefef",
+                      "inverse-on-surface": "#9b9d9e",
+                      "outline-variant": "#abadae",
+                      "surface-container-low": "#eff1f2",
+                      "on-tertiary-fixed": "#2d0f00",
+                      "error-container": "#f74b6d"
+              },
+              "borderRadius": {
+                      "DEFAULT": "1rem",
+                      "lg": "2rem",
+                      "xl": "3rem",
+                      "full": "9999px"
+              },
+              "spacing": {},
+              "fontFamily": {
+                      "headline": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "display": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "body": [
+                              "Manrope"
+                      ],
+                      "label": [
+                              "Plus Jakarta Sans"
+                      ]
+              },
+              "fontSize": {}
+      },
+          },
+        }
+    </script>
+<style>
+        body {
+            background-color: theme('colors.surface');
+            color: theme('colors.on-surface');
+            font-family: theme('fontFamily.body');
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col pt-24">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/60 backdrop-blur-xl border-b border-surface-container-low/60 shadow-sm transition-all duration-300">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<!-- Brand Logo -->
+<a class="font-headline text-xl font-bold text-primary tracking-tight flex items-center gap-2 group" href="index.html">
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform duration-300" style="font-variation-settings: 'FILL' 1;">speed</span>
+                Time Acceleration
+            </a>
+<!-- Navigation Links (Web) -->
+<div class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant font-headline text-title-lg font-medium hover:scale-102 hover:text-primary transition-all duration-200" href="index.html">Home</a>
+<!-- Active State -->
+<a class="text-primary font-headline text-title-lg font-bold border-b-2 border-primary pb-1 scale-98 transition-transform" href="games.html">Games</a>
+<a class="text-on-surface-variant font-headline text-title-lg font-medium hover:scale-102 hover:text-primary transition-all duration-200" href="about.html">About</a>
+<a class="text-on-surface-variant font-headline text-title-lg font-medium hover:scale-102 hover:text-primary transition-all duration-200" href="support.html">Support</a>
+</div>
+<!-- Trailing Action -->
+<div class="hidden md:flex items-center gap-4">
+<a class="bg-gradient-to-r from-primary to-primary-container text-on-primary font-headline text-title-lg font-medium px-6 py-2 rounded-full hover:scale-102 transition-transform duration-200 shadow-md flex items-center gap-2" href="support.html">
+                    Contact
+                    <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="flex-grow w-full max-w-7xl mx-auto px-4 md:px-8 py-12 flex flex-col gap-16 relative">
+<!-- Hero Section for Snake Jam -->
+<section class="relative w-full min-h-[716px] rounded-xl overflow-hidden bg-surface-container-low shadow-sm flex flex-col justify-end group">
+<!-- Hero Background Image -->
+<div class="absolute inset-0 z-0">
+<img alt="Abstract playful 3D shapes representing a puzzle game" class="w-full h-full object-cover opacity-80 mix-blend-multiply group-hover:scale-105 transition-transform duration-1000 ease-out" data-alt="A vibrant, abstract 3D render of playful geometric puzzle blocks interlocking. The scene is brightly lit with high-key lighting, casting soft shadows. The color palette features deep indigo, mint green, and energetic orange accents against a pristine white background. The overall aesthetic is clean, modern, and highly tactile, resembling a sophisticated physical toy set." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtj2T-SZX0qruHCNW4VVnU5tMYROnG5J3gR2CBOG8x2L3A77BpcZDcI18kVRrb5G7cT_3kGYlvbi4bhhY75O6stGz0YSTXudielKOea9ewyb2e9tan_sMBtyvvfBvEOXs_Qzf3d-dLI1n2IR5XaxKxUM8nBi0wZwAYZfKdqpiJAL3exialoR4-8S3VHqtBZhCiZVDliMYw78kPPUnzPthZW-6TSd7UFW3yT29L5oeTIYPHh7csTEV1BpJawOyLtN2pAcOlPeBYa64"/>
+<!-- Gradient Overlay for legibility -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent"></div>
+</div>
+<!-- Content Container -->
+<div class="relative z-10 p-8 md:p-16 max-w-3xl">
+<!-- Badges -->
+<div class="flex flex-wrap gap-3 mb-6">
+<span class="bg-primary-container text-on-primary-container font-label text-label-md px-3 py-1 rounded-full shadow-sm backdrop-blur-md">PUZZLE GAME</span>
+<span class="bg-surface/80 backdrop-blur-md text-on-surface font-label text-label-md px-3 py-1 rounded-full border border-outline-variant/20 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">phone_iphone</span> iOS
+                    </span>
+<span class="bg-surface/80 backdrop-blur-md text-on-surface font-label text-label-md px-3 py-1 rounded-full border border-outline-variant/20 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">android</span> Android
+                    </span>
+</div>
+<!-- Title & Description -->
+<h1 class="font-display text-display-lg text-on-surface font-bold tracking-tight mb-4 drop-shadow-sm leading-none">
+                    Snake Jam
+                </h1>
+<p class="font-body text-body-lg text-on-surface-variant max-w-xl mb-8 leading-relaxed text-lg">A sliding-block puzzle meets classic Snake: guide your snake through the board and help it escape. Experience tactile mechanics in a beautifully crafted mobile puzzle experience.</p>
+<!-- Status Note (No Store Buttons) -->
+<div class="bg-surface-container-lowest/90 backdrop-blur-xl p-4 rounded-lg inline-flex items-center gap-3 border border-outline-variant/20 shadow-sm transition-transform hover:scale-102">
+<div class="bg-tertiary-container p-2 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-on-tertiary-container" style="font-variation-settings: 'FILL' 1;">info</span>
+</div>
+<span class="font-headline text-title-lg font-medium text-on-surface">Store links will be added after release.</span>
+</div>
+</div>
+<!-- Asymmetric Floating Element (Decorative) -->
+<div class="hidden lg:block absolute top-16 right-16 w-64 h-64 bg-secondary-container/30 rounded-full blur-3xl z-0 mix-blend-multiply"></div>
+<div class="hidden lg:block absolute bottom-32 right-32 w-48 h-48 bg-primary-container/40 rounded-full blur-2xl z-0 mix-blend-multiply"></div>
+</section>
+<!-- Bento Grid: Game Features / Sneak Peek -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Feature Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 flex flex-col gap-4 shadow-sm border border-outline-variant/10 hover:shadow-md transition-shadow duration-300 relative overflow-hidden group">
+<div class="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 1;">route</span>
+</div>
+<h3 class="font-headline text-headline-lg font-semibold text-on-surface">Tactile Logic</h3>
+<p class="font-body text-body-lg text-on-surface-variant">Slide, twist, and maneuver through intricate blocks. Every move feels intentional and satisfying.</p>
+<!-- Subtle background texture -->
+<div class="absolute -right-8 -bottom-8 opacity-5 text-primary pointer-events-none">
+<span class="material-symbols-outlined text-9xl">route</span>
+</div>
+</div>
+<!-- Image Card (Asymmetric center) -->
+<div class="md:col-span-2 bg-surface-container-low rounded-xl overflow-hidden relative min-h-[300px] shadow-sm group">
+<img alt="Close up of puzzle mechanics" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A close-up, high-quality macro shot of smooth, interconnected puzzle blocks. The lighting is soft and natural, emphasizing the subtle textures and rounded edges of the pieces. The color palette focuses on mint greens and soft grays, creating a calm, analytical mood suitable for a precision logic game." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFtXpqEtPBT9GbqMu-yQz2AjVJlKky7q2YdFGrqdMdckkiyVgAbO8CtBvWIYJ2UOsEM9okgHisOi3Qh86SSoaBCfVXIIwKjMhTTWfykVoXnE9RlqL5DyyRqbALvViOuGQGbFddXQxYF3hgovFto2xBfyJwqbqmxuX-NlUK2yxYs4PRgmbul80zFIAz_MK-OO-2GS9fl_whyFURR3OROvEX73NeZdTZsnRdThhnnU51OAZg2ZqUGs-Dc1pzcyaT-DfPjR-tFZOx-Fo"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface/80 to-transparent p-8 flex flex-col justify-center">
+<h3 class="font-headline text-headline-lg font-semibold text-on-surface mb-2">Beautifully Complex</h3>
+<p class="font-body text-body-lg text-on-surface-variant max-w-sm">Designed for both quick sessions and deep puzzle solving.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low mt-24">
+<div class="w-full py-12 flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-4">
+<!-- Brand / Copyright -->
+<div class="flex flex-col md:flex-row items-center gap-2 md:gap-4 text-center md:text-left">
+<span class="font-headline font-bold text-on-surface text-lg">Shenyang Time Acceleration Technology Co., Ltd.</span>
+<span class="hidden md:inline text-on-surface-variant">•</span>
+<span class="font-body text-body-lg text-on-surface-variant">© 2026 Shenyang Time Acceleration Technology Co., Ltd. All rights reserved.</span>
+<span class="hidden md:inline text-on-surface-variant">•</span>
+<a class="font-body text-body-lg text-primary hover:text-tertiary transition-colors" href="mailto:contact@timeaccel.com">contact@timeaccel.com</a>
+</div>
+<!-- Links -->
+<div class="flex items-center gap-6">
+<a class="font-body text-body-lg text-on-surface-variant hover:text-tertiary transition-colors opacity-80 hover:opacity-100" href="support.html">Support</a>
+<a class="font-body text-body-lg text-on-surface-variant hover:text-tertiary transition-colors opacity-80 hover:opacity-100" href="privacy.html">Privacy</a>
+<a class="font-body text-body-lg text-on-surface-variant hover:text-tertiary transition-colors opacity-80 hover:opacity-100" href="terms.html">Terms</a>
+</div>
+</div>
+</footer>
+</body></html>
